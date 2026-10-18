@@ -18,10 +18,11 @@ jobs:
 
       - run: npm ci
 
-      # inject the SteamGridDB key from the repo secret OMNI_SGDB_KEY
+      # inject the SteamGridDB and Steam Web API keys from the repo secrets
       - run: npm run set-key
         env:
-          OMNI_SGDB_KEY: ${{ secrets.OMNI_SGDB_KEY }}
+          PANDA_SGDB_KEY: ${{ secrets.PANDA_SGDB_KEY }}
+          PANDA_STEAM_KEY: ${{ secrets.PANDA_STEAM_KEY }}
 
       - run: npm run dist
 
