@@ -31,7 +31,7 @@ It reads each launcher's own metadata and hands launching back to the native cli
 ## Run
 
 ```powershell
-git clone https://github.com/sheranton/Panda.git
+git clone https://github.com/sheratonc/Panda.git
 cd Panda
 npm install
 npm start
@@ -53,7 +53,7 @@ npm run dist
 ```
 
 Both land in `dist\`. Prebuilt releases are on the
-[Releases page](https://github.com/sheranton/Panda/releases).
+[Releases page](https://github.com/sheratonc/Panda/releases).
 
 ## Cover art & owned games (zero setup for end users)
 
